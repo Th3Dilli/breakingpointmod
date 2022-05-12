@@ -3,4 +3,5 @@
 *.bak1
 *.v4d
 *.vdat
+*.v4w
 **/layers/**.png
