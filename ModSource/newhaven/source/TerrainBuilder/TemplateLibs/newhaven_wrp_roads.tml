@@ -1,0 +1,483 @@
+<?xml version="1.0" ?>
+<Library name="newhaven_wrp_roads" shape="rectangle" default_fill="-16776961" default_outline="-16776961" tex="0">
+    <Template>
+        <Name>asf25</Name>
+        <File>ca\roads\asf25.p3d</File>
+        <Date>01/18/20 22:43:22</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-712245481</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.156250</TexLLU>
+        <TexLLV>0.000000</TexLLV>
+        <TexURU>0.222656</TexURU>
+        <TexURV>0.240234</TexURV>
+        <BBRadius>12.500000</BBRadius>
+        <BBHScale>0.280000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-3.500000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="3.500000" Y="0.000000" Z="25.000000" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="12.500000" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>asf6konec</Name>
+        <File>ca\roads\asf6konec.p3d</File>
+        <Date>01/18/20 22:43:22</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>117136582</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.406250</TexLLU>
+        <TexLLV>0.000000</TexLLV>
+        <TexURU>0.498047</TexURU>
+        <TexURV>0.082031</TexURV>
+        <BBRadius>3.125000</BBRadius>
+        <BBHScale>1.120000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-3.500000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="3.500000" Y="0.000000" Z="6.250000" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="3.125000" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>asf10 25</Name>
+        <File>ca\roads\asf10 25.p3d</File>
+        <Date>01/18/20 22:43:21</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-1641706480</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.531250</TexLLU>
+        <TexLLV>0.000000</TexLLV>
+        <TexURU>0.632813</TexURU>
+        <TexURV>0.068359</TexURV>
+        <BBRadius>2.474475</BBRadius>
+        <BBHScale>1.480447</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-3.500000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="3.826660" Y="0.000000" Z="4.948950" />
+        <BoundingCenter X="0.163330" Y="0.000000" Z="2.474475" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>asf12</Name>
+        <File>ca\roads\asf12.p3d</File>
+        <Date>01/18/20 22:43:22</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-712311083</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.656250</TexLLU>
+        <TexLLV>0.000000</TexLLV>
+        <TexURU>0.777344</TexURU>
+        <TexURV>0.216797</TexURV>
+        <BBRadius>6.250000</BBRadius>
+        <BBHScale>0.560000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-3.500000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="3.500000" Y="0.000000" Z="12.500000" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="6.250000" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>asf6</Name>
+        <File>ca\roads\asf6.p3d</File>
+        <Date>01/18/20 22:43:22</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-635688798</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.000000</TexLLU>
+        <TexLLV>0.125000</TexLLV>
+        <TexURU>0.091797</TexURU>
+        <TexURV>0.207031</TexURV>
+        <BBRadius>3.125000</BBRadius>
+        <BBHScale>1.120000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-3.500000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="3.500000" Y="0.000000" Z="6.250000" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="3.125000" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>asf6_prechod</Name>
+        <File>ca\roads\asf6_prechod.p3d</File>
+        <Date>01/18/20 22:43:21</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>1379704416</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.406250</TexLLU>
+        <TexLLV>0.125000</TexLLV>
+        <TexURU>0.498047</TexURU>
+        <TexURV>0.207031</TexURV>
+        <BBRadius>3.125000</BBRadius>
+        <BBHScale>1.120000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-3.500000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="3.500000" Y="0.000000" Z="6.250000" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="3.125000" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>asf10 50</Name>
+        <File>ca\roads\asf10 50.p3d</File>
+        <Date>01/18/20 22:43:21</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-1641509688</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.000000</TexLLU>
+        <TexLLV>0.250000</TexLLV>
+        <TexURU>0.158203</TexURU>
+        <TexURV>0.441406</TexURV>
+        <BBRadius>4.645080</BBRadius>
+        <BBHScale>0.829528</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000002</XShift>
+        <YShift>-0.000002</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-3.500000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="4.206454" Y="0.000000" Z="9.290164" />
+        <BoundingCenter X="0.353227" Y="0.000000" Z="4.645082" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>kos6konec</Name>
+        <File>ca\roads\kos6konec.p3d</File>
+        <Date>01/18/20 22:43:30</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-1713103263</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.250000</TexLLU>
+        <TexLLV>0.250000</TexLLV>
+        <TexURU>0.455078</TexURU>
+        <TexURV>0.390625</TexURV>
+        <BBRadius>3.125000</BBRadius>
+        <BBHScale>1.456000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-4.550000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="4.550000" Y="0.000000" Z="6.250000" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="3.125000" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>kos6</Name>
+        <File>ca\roads\kos6.p3d</File>
+        <Date>01/18/20 22:43:30</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-1451944633</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.500000</TexLLU>
+        <TexLLV>0.250000</TexLLV>
+        <TexURU>0.705078</TexURU>
+        <TexURV>0.390625</TexURV>
+        <BBRadius>3.125000</BBRadius>
+        <BBHScale>1.456000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-4.550000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="4.550000" Y="0.000000" Z="6.250000" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="3.125000" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>kos10 25</Name>
+        <File>ca\roads\kos10 25.p3d</File>
+        <Date>01/18/20 22:43:30</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-999574603</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.750000</TexLLU>
+        <TexLLV>0.250000</TexLLV>
+        <TexURU>0.968750</TexURU>
+        <TexURV>0.369141</TexURV>
+        <BBRadius>2.565640</BBRadius>
+        <BBHScale>1.833989</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-4.550000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="4.860710" Y="0.000000" Z="5.131280" />
+        <BoundingCenter X="0.155355" Y="0.000000" Z="2.565640" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>kos25</Name>
+        <File>ca\roads\kos25.p3d</File>
+        <Date>01/18/20 22:43:30</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-921486414</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.000000</TexLLU>
+        <TexLLV>0.500000</TexLLV>
+        <TexURU>0.083984</TexURU>
+        <TexURV>0.734375</TexURV>
+        <BBRadius>12.500001</BBRadius>
+        <BBHScale>0.364000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-4.550000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="4.550000" Y="0.000000" Z="25.000002" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="12.500001" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>runway_beton</Name>
+        <File>ca\roads\runway_beton.p3d</File>
+        <Date>01/18/20 22:43:41</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-502393547</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.250000</TexLLU>
+        <TexLLV>0.500000</TexLLV>
+        <TexURU>0.361328</TexURU>
+        <TexURV>0.722656</TexURV>
+        <BBRadius>40.000000</BBRadius>
+        <BBHScale>0.500000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-20.000000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="20.000000" Y="0.000000" Z="80.000000" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="40.000000" />
+        <Placement></Placement>
+        <SnapPoint>
+            <Name>poj</Name>
+            <Type>1</Type>
+            <EdgeLength>39.937954</EdgeLength>
+            <PositionX>0.000000</PositionX>
+            <PositionY>-40.000000</PositionY>
+            <NormalX>0.000000</NormalX>
+            <NormalY>1.000000</NormalY>
+        </SnapPoint>
+        <SnapPoint>
+            <Name>poj</Name>
+            <Type>0</Type>
+            <EdgeLength>39.937954</EdgeLength>
+            <PositionX>0.000000</PositionX>
+            <PositionY>40.000000</PositionY>
+            <NormalX>0.000000</NormalX>
+            <NormalY>-1.000000</NormalY>
+        </SnapPoint>
+    </Template>
+    <Template>
+        <Name>kos12</Name>
+        <File>ca\roads\kos12.p3d</File>
+        <Date>01/18/20 22:43:30</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-921552016</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.500000</TexLLU>
+        <TexLLV>0.500000</TexLLV>
+        <TexURU>0.646484</TexURU>
+        <TexURV>0.701172</TexURV>
+        <BBRadius>6.250000</BBRadius>
+        <BBHScale>0.728000</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-4.550000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="4.550000" Y="0.000000" Z="12.500001" />
+        <BoundingCenter X="0.000000" Y="0.000000" Z="6.250000" />
+        <Placement></Placement>
+    </Template>
+    <Template>
+        <Name>asf10 75</Name>
+        <File>ca\roads\asf10 75.p3d</File>
+        <Date>01/18/20 22:43:21</Date>
+        <Archive></Archive>
+        <Fill>-16776961</Fill>
+        <Outline>-16776961</Outline>
+        <Scale>1.000000</Scale>
+        <Hash>-1641378485</Hash>
+        <ScaleRandMin>0.000000</ScaleRandMin>
+        <ScaleRandMax>0.000000</ScaleRandMax>
+        <YawRandMin>0.000000</YawRandMin>
+        <YawRandMax>0.000000</YawRandMax>
+        <PitchRandMin>0.000000</PitchRandMin>
+        <PitchRandMax>0.000000</PitchRandMax>
+        <RollRandMin>0.000000</RollRandMin>
+        <RollRandMax>0.000000</RollRandMax>
+        <TexLLU>0.750000</TexLLU>
+        <TexLLV>0.500000</TexLLV>
+        <TexURU>0.876953</TexURU>
+        <TexURV>0.714844</TexURV>
+        <BBRadius>6.815701</BBRadius>
+        <BBHScale>0.593207</BBHScale>
+        <AutoCenter>1</AutoCenter>
+        <XShift>-0.000000</XShift>
+        <YShift>-0.000000</YShift>
+        <ZShift>-0.000000</ZShift>
+        <Height>0.000000</Height>
+        <BoundingMin X="-3.500000" Y="0.000000" Z="0.000000" />
+        <BoundingMax X="4.586240" Y="0.000000" Z="13.631401" />
+        <BoundingCenter X="0.543120" Y="0.000000" Z="6.815701" />
+        <Placement></Placement>
+    </Template>
+</Library>
