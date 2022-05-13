@@ -397,21 +397,21 @@
         <Placement></Placement>
         <SnapPoint>
             <Name>poj</Name>
-            <Type>1</Type>
-            <EdgeLength>39.937954</EdgeLength>
-            <PositionX>0.000000</PositionX>
-            <PositionY>-40.000000</PositionY>
-            <NormalX>0.000000</NormalX>
-            <NormalY>1.000000</NormalY>
-        </SnapPoint>
-        <SnapPoint>
-            <Name>poj</Name>
             <Type>0</Type>
             <EdgeLength>39.937954</EdgeLength>
             <PositionX>0.000000</PositionX>
             <PositionY>40.000000</PositionY>
             <NormalX>0.000000</NormalX>
             <NormalY>-1.000000</NormalY>
+        </SnapPoint>
+        <SnapPoint>
+            <Name>poj</Name>
+            <Type>1</Type>
+            <EdgeLength>39.937954</EdgeLength>
+            <PositionX>0.000000</PositionX>
+            <PositionY>-40.000000</PositionY>
+            <NormalX>0.000000</NormalX>
+            <NormalY>1.000000</NormalY>
         </SnapPoint>
     </Template>
     <Template>
