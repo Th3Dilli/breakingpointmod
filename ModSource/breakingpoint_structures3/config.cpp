@@ -35057,118 +35057,118 @@ class CfgVehicles
 		actionBegin1="OpenDoor_1";
 		actionEnd1="OpenDoor_1";
 	};
-	class Land_Shed_W03: Land_Shed_11_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=7.6399999;
-		class SimpleObject
-		{
-			eden=0;
-			animate[]=
-			{
-				
-				{
-					"door_1_rot",
-					0
-				},
-				
-				{
-					"door_1_locked_rot",
-					0
-				}
-			};
-			hide[]={};
-			verticalOffset=1.075;
-			verticalOffsetWorld=0;
-			init="''";
-		};
-		editorPreview="\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_Shed_11_F.jpg";
-		_generalMacro="Land_Shed_11_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_C_CfgVehicles_Land_Shed_11_F0";
-		model="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_11_F";
-		DLC="Enoch";
-		icon="iconObject_2x1";
-		editorCategory="EdCat_Structures_Enoch";
-		editorSubcategory="EdSubcat_Residential_Village";
-		vehicleClass="Structures_Village";
-		armor=100;
-		explosionShielding=4;
-		cost=10000;
-		numberOfDoors=1;
-		numberOfWindows=0;
-		destrType="DestructBuilding";
-		class DestructionEffects
-		{
-			class Ruin1
-			{
-				simulation="ruin";
-				type="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_11_ruins_F.p3d";
-				position="";
-				intensity=1;
-				interval=1;
-				lifeTime=1;
-			};
-		};
-		class HitPoints
-		{
-		};
-		class Damage
-		{
-			tex[]={};
-			mat[]={};
-		};
-		class AnimationSources
-		{
-			class Door_1_sound_source
-			{
-				source="user";
-				initPhase=0;
-				animPeriod=1;
-				sound="OldWoodDoorsSound";
-				soundPosition="Door_1_trigger";
-			};
-			class Door_1_noSound_source
-			{
-				source="user";
-				initPhase=0;
-				animPeriod=1;
-			};
-			class Door_1_locked_source
-			{
-				source="user";
-				initPhase=0;
-				animPeriod=0.80000001;
-			};
-		};
-		class UserActions
-		{
-			class OpenDoor_1
-			{
-				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="$STR_DN_OUT_O_DOOR";
-				position="Door_1_trigger";
-				priority=11;
-				actionNamedSel="Door_1_action";
-				radius=1.75;
-				aiMaxRange=5.25;
-				onlyForPlayer=0;
-				condition="((this animationSourcePhase 'Door_1_sound_source') < 0.5) && (cameraOn isKindOf 'CAManBase')";
-				statement="([this, 1, 1] call BIS_fnc_Door)";
-			};
-			class CloseDoor_1: OpenDoor_1
-			{
-				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="$STR_DN_OUT_C_DOOR";
-				priority=11;
-				condition="((this animationSourcePhase 'Door_1_sound_source') >= 0.5) && ((this getVariable ['bis_disabled_Door_1', 0]) != 1) && (cameraOn isKindOf 'CAManBase')";
-				statement="([this, 1, 0] call BIS_fnc_Door)";
-			};
-		};
-		actionBegin1="OpenDoor_1";
-		actionEnd1="OpenDoor_1";
-	};
+//	class Land_Shed_W03: Land_Shed_11_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=7.6399999;
+//		class SimpleObject
+//		{
+//			eden=0;
+//			animate[]=
+//			{
+//				
+//				{
+//					"door_1_rot",
+//					0
+//				},
+//				
+//				{
+//					"door_1_locked_rot",
+//					0
+//				}
+//			};
+//			hide[]={};
+//			verticalOffset=1.075;
+//			verticalOffsetWorld=0;
+//			init="''";
+//		};
+//		editorPreview="\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_Shed_11_F.jpg";
+//		_generalMacro="Land_Shed_11_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_C_CfgVehicles_Land_Shed_11_F0";
+//		model="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_11_F";
+//		DLC="Enoch";
+//		icon="iconObject_2x1";
+//		editorCategory="EdCat_Structures_Enoch";
+//		editorSubcategory="EdSubcat_Residential_Village";
+//		vehicleClass="Structures_Village";
+//		armor=100;
+//		explosionShielding=4;
+//		cost=10000;
+//		numberOfDoors=1;
+//		numberOfWindows=0;
+//		destrType="DestructBuilding";
+//		class DestructionEffects
+//		{
+//			class Ruin1
+//			{
+//				simulation="ruin";
+//				type="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_11_ruins_F.p3d";
+//				position="";
+//				intensity=1;
+//				interval=1;
+//				lifeTime=1;
+//			};
+//		};
+//		class HitPoints
+//		{
+//		};
+//		class Damage
+//		{
+//			tex[]={};
+//			mat[]={};
+//		};
+//		class AnimationSources
+//		{
+//			class Door_1_sound_source
+//			{
+//				source="user";
+//				initPhase=0;
+//				animPeriod=1;
+//				sound="OldWoodDoorsSound";
+//				soundPosition="Door_1_trigger";
+//			};
+//			class Door_1_noSound_source
+//			{
+//				source="user";
+//				initPhase=0;
+//				animPeriod=1;
+//			};
+//			class Door_1_locked_source
+//			{
+//				source="user";
+//				initPhase=0;
+//				animPeriod=0.80000001;
+//			};
+//		};
+//		class UserActions
+//		{
+//			class OpenDoor_1
+//			{
+//				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
+//				displayName="$STR_DN_OUT_O_DOOR";
+//				position="Door_1_trigger";
+//				priority=11;
+//				actionNamedSel="Door_1_action";
+//				radius=1.75;
+//				aiMaxRange=5.25;
+//				onlyForPlayer=0;
+//				condition="((this animationSourcePhase 'Door_1_sound_source') < 0.5) && (cameraOn isKindOf 'CAManBase')";
+//				statement="([this, 1, 1] call BIS_fnc_Door)";
+//			};
+//			class CloseDoor_1: OpenDoor_1
+//			{
+//				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
+//				displayName="$STR_DN_OUT_C_DOOR";
+//				priority=11;
+//				condition="((this animationSourcePhase 'Door_1_sound_source') >= 0.5) && ((this getVariable ['bis_disabled_Door_1', 0]) != 1) && (cameraOn isKindOf 'CAManBase')";
+//				statement="([this, 1, 0] call BIS_fnc_Door)";
+//			};
+//		};
+//		actionBegin1="OpenDoor_1";
+//		actionEnd1="OpenDoor_1";
+//	};
 	class Land_Shed_W01: Land_Shed_09_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
@@ -53888,211 +53888,27 @@ class CfgVehicles
 	};
 	class Land_Ind_Workshop01_03: Land_Workshop_03_grey_F
 	{
-		author="$STR_A3_Bohemia_Interactive";
+		author = "$STR_A3_Bohemia_Interactive";
 		class SimpleObject
 		{
-			eden=0;
-			animate[]=
-			{
-				
-				{
-					"door_1_rot",
-					0
-				},
-				
-				{
-					"door_1_handle_rot_1",
-					0
-				},
-				
-				{
-					"door_1_handle_rot_2",
-					0
-				},
-				
-				{
-					"door_1_locked_rot",
-					0
-				},
-				
-				{
-					"door_1_handle_locked_rot",
-					0
-				},
-				
-				{
-					"door_2_rot",
-					0
-				},
-				
-				{
-					"door_2_handle_rot_1",
-					0
-				},
-				
-				{
-					"door_2_handle_rot_2",
-					0
-				},
-				
-				{
-					"door_2_locked_rot",
-					0
-				},
-				
-				{
-					"door_2_handle_locked_rot",
-					0
-				},
-				
-				{
-					"door_3_rot",
-					0
-				},
-				
-				{
-					"door_3_handle_rot_1",
-					0
-				},
-				
-				{
-					"door_3_handle_rot_2",
-					0
-				},
-				
-				{
-					"door_3_locked_rot",
-					0
-				},
-				
-				{
-					"door_3_handle_locked_rot",
-					0
-				},
-				
-				{
-					"door_4_rot",
-					0
-				},
-				
-				{
-					"door_4_locked_rot",
-					0
-				},
-				
-				{
-					"door_5_rot",
-					0
-				},
-				
-				{
-					"door_5_locked_rot",
-					0
-				},
-				
-				{
-					"door_6_rot",
-					0
-				},
-				
-				{
-					"door_6_handle_rot_1",
-					0
-				},
-				
-				{
-					"door_6_handle_rot_2",
-					0
-				},
-				
-				{
-					"door_6_locked_rot",
-					0
-				},
-				
-				{
-					"door_6_handle_locked_rot",
-					0
-				},
-				
-				{
-					"glass_1_hide",
-					0
-				},
-				
-				{
-					"glass_1_unhide",
-					0
-				},
-				
-				{
-					"glass_2_hide",
-					0
-				},
-				
-				{
-					"glass_2_unhide",
-					0
-				},
-				
-				{
-					"glass_3_hide",
-					0
-				},
-				
-				{
-					"glass_3_unhide",
-					0
-				},
-				
-				{
-					"glass_4_hide",
-					0
-				},
-				
-				{
-					"glass_4_unhide",
-					0
-				},
-				
-				{
-					"glass_5_hide",
-					0
-				},
-				
-				{
-					"glass_5_unhide",
-					0
-				}
-			};
-			hide[]={};
-			verticalOffset=1.174;
-			verticalOffsetWorld=0;
-			init="''";
+			eden = 0;
+			animate[] = {{"door_1_rot",0},{"door_1_handle_rot_1",0},{"door_1_handle_rot_2",0},{"door_1_locked_rot",0},{"door_1_handle_locked_rot",0},{"door_2_rot",0},{"door_2_handle_rot_1",0},{"door_2_handle_rot_2",0},{"door_2_locked_rot",0},{"door_2_handle_locked_rot",0},{"door_3_rot",0},{"door_3_handle_rot_1",0},{"door_3_handle_rot_2",0},{"door_3_locked_rot",0},{"door_3_handle_locked_rot",0},{"door_4_rot",0},{"door_4_locked_rot",0},{"door_5_rot",0},{"door_5_locked_rot",0},{"door_6_rot",0},{"door_6_handle_rot_1",0},{"door_6_handle_rot_2",0},{"door_6_locked_rot",0},{"door_6_handle_locked_rot",0},{"glass_1_hide",0},{"glass_1_unhide",0},{"glass_2_hide",0},{"glass_2_unhide",0},{"glass_3_hide",0},{"glass_3_unhide",0},{"glass_4_hide",0},{"glass_4_unhide",0},{"glass_5_hide",0},{"glass_5_unhide",0}};
+			hide[] = {};
+			verticalOffset = 1.174;
+			verticalOffsetWorld = 0;
+			init = "''";
 		};
-		editorPreview="\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_Workshop_03_grey_F.jpg";
-		_generalMacro="Land_Workshop_03_grey_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_C_CfgVehicles_Land_Workshop_03_grey_F0";
-		model="\A3\Structures_F_Enoch\Industrial\Houses\Workshop_03_grey_F.p3d";
-		DLC="Enoch";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_Workshop_03_grey_F.jpg";
+		_generalMacro = "Land_Workshop_03_grey_F";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "$STR_A3_C_CfgVehicles_Land_Workshop_03_grey_F0";
+		model = "\A3\Structures_F_Enoch\Industrial\Houses\Workshop_03_grey_F.p3d";
+		DLC = "Enoch";
 		class Damage
 		{
-			tex[]=
-			{
-				"a3\structures_f\data\windows\window_set_ca.paa",
-				"A3\Structures_F\Data\Windows\destruct_half_window_set_CA.paa"
-			};
-			mat[]=
-			{
-				"A3\Structures_F_Enoch\Industrial\Houses\Data\ind_workshop01_03_int1_multi.rvmat",
-				"A3\Structures_F_Enoch\Industrial\Houses\Data\destruct_ind_workshop01_03_int1_multi.rvmat",
-				"A3\Structures_F_Enoch\Industrial\Houses\Data\destruct_ind_workshop01_03_int1_multi.rvmat",
-				"A3\Structures_F_Enoch\Industrial\Houses\Data\ind_workshop01_03_multi1.rvmat",
-				"A3\Structures_F_Enoch\Industrial\Houses\Data\destruct_ind_workshop01_03_multi1.rvmat",
-				"A3\Structures_F_Enoch\Industrial\Houses\Data\destruct_ind_workshop01_03_multi1.rvmat"
-			};
+			tex[] = {"a3\structures_f\data\windows\window_set_ca.paa","A3\Structures_F\Data\Windows\destruct_half_window_set_CA.paa"};
+			mat[] = {"A3\Structures_F_Enoch\Industrial\Houses\Data\ind_workshop01_03_int1_multi.rvmat","A3\Structures_F_Enoch\Industrial\Houses\Data\destruct_ind_workshop01_03_int1_multi.rvmat","A3\Structures_F_Enoch\Industrial\Houses\Data\destruct_ind_workshop01_03_int1_multi.rvmat","A3\Structures_F_Enoch\Industrial\Houses\Data\ind_workshop01_03_multi1.rvmat","A3\Structures_F_Enoch\Industrial\Houses\Data\destruct_ind_workshop01_03_multi1.rvmat","A3\Structures_F_Enoch\Industrial\Houses\Data\destruct_ind_workshop01_03_multi1.rvmat"};
 		};
 	};
 	class Land_Ind_Workshop01_04: Land_Workshop_04_grey_F
@@ -54895,42 +54711,6 @@ class CfgVehicles
 		actionBegin1="OpenDoor_1";
 		actionEnd1="OpenDoor_1";
 	};
-	class Land_Hotel: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
-	class Land_psi_bouda: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
-	class Land_A_Office02: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
 	class Land_zavora_2: Land_HelipadEmpty_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
@@ -54956,66 +54736,6 @@ class CfgVehicles
 		accuracy=1000;
 	};
 	class Land_water_tank2: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
-	class Land_Dum_istan4_big: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
-	class Land_Dum_istan2_01: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
-	class Land_Dum_mesto_in: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
-	class Land_Dum_istan4_inverse: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
-	class Land_Dum_istan4_detaily1: Land_HelipadEmpty_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
 		mapSize=1;
@@ -55074,29 +54794,125 @@ class CfgVehicles
 		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
 		icon="iconObject_1x1";
 		accuracy=1000;
-	};
-	class Land_Shed_M02: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
-	class Land_Stoplight02: Land_HelipadEmpty_F
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		mapSize=1;
-		_generalMacro="Land_HelipadEmpty_F";
-		scope=2;
-		scopeCurator=2;
-		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		icon="iconObject_1x1";
-		accuracy=1000;
-	};
+	};	
+//	class Land_Hotel: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_psi_bouda: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_A_Office02: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_Dum_istan4_big: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_Dum_istan2_01: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_Dum_mesto_in: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_Dum_istan4_inverse: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_Dum_istan4_detaily1: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_Shed_M02: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
+//	class Land_Stoplight02: Land_HelipadEmpty_F
+//	{
+//		author="$STR_A3_Bohemia_Interactive";
+//		mapSize=1;
+//		_generalMacro="Land_HelipadEmpty_F";
+//		scope=2;
+//		scopeCurator=2;
+//		displayName="$STR_A3_cfgVehicles_Land_HelipadEmpty_F0";
+//		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+//		icon="iconObject_1x1";
+//		accuracy=1000;
+//	};
 };
