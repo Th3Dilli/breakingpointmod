@@ -111,7 +111,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Brick House (v1)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_2B01_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -1542,7 +1542,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Brick House (v2)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_2B02_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -3307,7 +3307,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Brick House (v3)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_2B03_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -4405,7 +4405,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (Small, v1)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_1W01_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -5708,7 +5708,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (Small, v10)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_1W10_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -6764,7 +6764,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (Small, v3)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_1W03_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -7777,7 +7777,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (Small, v5)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_1W05_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -8688,7 +8688,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (Small, v6)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_1W06_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -9599,7 +9599,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (Small, v7)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_1W07_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -11610,7 +11610,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (Small, v8)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_1W08_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -13434,7 +13434,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (Small, v9)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_1W09_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -14345,7 +14345,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (v1)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_2W01_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -16775,7 +16775,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (v2)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_2W02_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -18018,7 +18018,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Wooden House (v4)";
 		model = "\A3\Structures_F_Enoch\Civilian\Houses\House_2W04_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Residential_Village";
@@ -19841,7 +19841,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Factory (Lathes)";
 		model = "\A3\Structures_F_Enoch\Industrial\Houses\Factory_02_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Industrial";
@@ -22491,7 +22491,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Orthodox Church2";
 		model = "\a3\Structures_F_Enoch\Cultural\OrthodoxChurches\OrthodoxChurch_02_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_2x3";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Religious";
@@ -22664,7 +22664,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Small Church (Yellow)";
 		model = "\A3\Structures_F_Enoch\Cultural\Church_05\Church_05_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_2x3";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Religious";
@@ -22837,7 +22837,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Water Station";
 		model = "\A3\Structures_F_Enoch\Industrial\Houses\WaterStation_01_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_2x1";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Utilities";
@@ -22934,7 +22934,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Hay Bale";
 		model = "\A3\Structures_F_Enoch\Industrial\Agriculture\HayBale_01_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_1x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Agricultural";
@@ -22962,7 +22962,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Hay Bale";
 		model = "\A3\Structures_F_Enoch\Industrial\Agriculture\HayBale_01_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_1x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Agricultural";
@@ -22990,7 +22990,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Barn (Brick)";
 		model = "\A3\Structures_F_Enoch\Industrial\Farms\Barn_02_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_3x2";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Agricultural";
@@ -23594,7 +23594,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Factory_02_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Houses\Factory_02_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Industrial";
@@ -26524,7 +26524,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_House_1B01_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Houses\House_1B01_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -28851,7 +28851,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_House_2B04_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Houses\House_2B04_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -30077,7 +30077,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_House_2B02_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Houses\House_2B02_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -32102,7 +32102,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Barracks_04_F0";
 		model="\A3\Structures_F_Enoch\Military\Barracks\Barracks_04_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Military";
@@ -33931,7 +33931,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_PowerStation_01_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Power\PowerStation_01_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Utilities";
@@ -34146,7 +34146,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Barn_03_large_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Farms\Barn_03_large_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Agricultural";
@@ -34520,7 +34520,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Barn_03_small_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Farms\Barn_03_small_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Agricultural";
@@ -34821,7 +34821,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Shed_14_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_14_F";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_2x1";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -34976,7 +34976,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Shed_10_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_10_F";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_2x1";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -35088,7 +35088,7 @@ class CfgVehicles
 //		scopeCurator=2;
 //		displayName="$STR_A3_C_CfgVehicles_Land_Shed_11_F0";
 //		model="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_11_F";
-//		DLC="Enoch";
+//		dlc="Enoch";
 //		icon="iconObject_2x1";
 //		editorCategory="EdCat_Structures_Enoch";
 //		editorSubcategory="EdSubcat_Residential_Village";
@@ -35200,7 +35200,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Shed_09_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_09_F";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_2x1";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -35552,7 +35552,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_House_1W11_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Houses\House_1W11_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -38180,7 +38180,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_House_1W12_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Houses\House_1W12_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -40367,7 +40367,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_IndustrialShed_01_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Sheds\IndustrialShed_01_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Industrial";
@@ -44373,7 +44373,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Orthodox Church";
 		model = "\a3\Structures_F_Enoch\Cultural\OrthodoxChurches\OrthodoxChurch_02_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		icon = "iconObject_2x3";
 		editorCategory = "EdCat_Structures_Enoch";
 		editorSubcategory = "EdSubcat_Religious";
@@ -44713,7 +44713,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_House_2W03_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Houses\House_2W03_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -46420,7 +46420,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_House_1W02_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Houses\House_1W02_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -48118,7 +48118,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_DeerStand_02_F0";
 		model="\A3\Props_F_Enoch\Civilian\Forest\DeerStand_02_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_2x1";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Forest";
@@ -48171,7 +48171,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_GuardTower_02_F0";
 		model="\A3\Structures_F_Enoch\Military\Barracks\GuardTower_02_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Military";
@@ -48279,7 +48279,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_WaterTower_02_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Farms\WaterTower_02_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Agricultural";
@@ -48453,7 +48453,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_FuelStation_03_shop_F0";
 		model="\A3\Structures_F_Enoch\Commercial\FuelStation_03\FuelStation_03_shop_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_1x1";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Services";
@@ -49570,7 +49570,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Sawmill_01_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Sawmills\Sawmill_01_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Industrial";
@@ -52692,7 +52692,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Rail_Station_Big_F0";
 		model="\A3\Structures_F_Enoch\Infrastructure\Railways\Rail_Station_Big_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Railways";
@@ -53038,7 +53038,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Workshop_05_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Houses\Workshop_05_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_2x1";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Industrial";
@@ -53480,7 +53480,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Workshop_01_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Houses\Workshop_01_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_2x1";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Industrial";
@@ -53868,7 +53868,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Workshop_02_grey_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Houses\Workshop_02_grey_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		class Damage
 		{
 			tex[]={};
@@ -53904,7 +53904,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "$STR_A3_C_CfgVehicles_Land_Workshop_03_grey_F0";
 		model = "\A3\Structures_F_Enoch\Industrial\Houses\Workshop_03_grey_F.p3d";
-		DLC = "Enoch";
+		dlc = "Enoch";
 		class Damage
 		{
 			tex[] = {"a3\structures_f\data\windows\window_set_ca.paa","A3\Structures_F\Data\Windows\destruct_half_window_set_CA.paa"};
@@ -54011,7 +54011,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Workshop_04_grey_F0";
 		model="\A3\Structures_F_Enoch\Industrial\Houses\Workshop_04_grey_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		class Damage
 		{
 			tex[]=
@@ -54124,7 +54124,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_House_1W04_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Houses\House_1W04_F.p3d";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_3x2";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";
@@ -54630,7 +54630,7 @@ class CfgVehicles
 		scopeCurator=2;
 		displayName="$STR_A3_C_CfgVehicles_Land_Shed_12_F0";
 		model="\A3\Structures_F_Enoch\Civilian\Sheds\Shed_12_F";
-		DLC="Enoch";
+		dlc="Enoch";
 		icon="iconObject_2x1";
 		editorCategory="EdCat_Structures_Enoch";
 		editorSubcategory="EdSubcat_Residential_Village";

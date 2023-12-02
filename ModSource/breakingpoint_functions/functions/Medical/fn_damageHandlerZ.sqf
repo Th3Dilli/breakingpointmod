@@ -7,7 +7,7 @@
 	Alderon Games Pty Ltd
 */
 
-params ["_zed","_selection","_damage","_source","_projectile"];
+params ["_zed", "_selection", "_damage", "_source", "_projectile", "_hitIndex", "_instigator", "_hitPoint", "_directHit"];
 
 //Handle Damage being Applied
 //_hitpoint = "HitBody";

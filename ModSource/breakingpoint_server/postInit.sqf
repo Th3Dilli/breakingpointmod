@@ -73,6 +73,7 @@ BP_RemoteAllowedMags = BP_FuelFull + BP_FuelEmpty + BP_Throwables + BP_MeleeAmmo
 BP_Devs = 
 {
 	[
+		"76561198150406806"
 	]
 };
 

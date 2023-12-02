@@ -27,28 +27,6 @@ if ((count _iPos) > 2) then
 };
 
 switch (_iClass) do {
-	default {
-		//Item is food, add random quantity of cans along with an item (if exists)
-		_item = createVehicle ["WeaponHolderSimulated", _iPos, [], _radius, "CAN_COLLIDE"];
-
-		_itemTypes = [] + ((getArray (configFile >> "cfgLoot" >> _iClass)) select 0);
-		_index = BP_CLBase find _iClass;
-		_weights = BP_CLChances select _index;
-		_cntWeights = count _weights;
-		_qty = 0;
-		_max = ceil(random 2) + 1;
-		while {_qty < _max} do {
-			_tQty = round(random 1) + 1;
-			_index = floor(random _cntWeights);
-			_index = _weights select _index;
-			_canType = _itemTypes select _index;
-			_item addMagazineCargoGlobal [_canType,_tQty];
-			_qty = _qty + _tQty;
-		};
-		if (_iItem != "") then {
-			_item addWeaponCargoGlobal [_iItem,1];
-		};
-	};
 	case "weapon": {
 		//Item is a weapon, add it and a random quantity of magazines
 		_item = createVehicle ["WeaponHolderSimulated", _iPos, [], _radius, "CAN_COLLIDE"];
@@ -111,6 +89,28 @@ switch (_iClass) do {
 		//Item is one magazine
 		_item = createVehicle ["WeaponHolderSimulated", _iPos, [], _radius, "CAN_COLLIDE"];
 		_item addBackpackCargoGlobal [_iItem,1];
+	};
+	default {
+		//Item is food, add random quantity of cans along with an item (if exists)
+		_item = createVehicle ["WeaponHolderSimulated", _iPos, [], _radius, "CAN_COLLIDE"];
+
+		_itemTypes = [] + ((getArray (configFile >> "cfgLoot" >> _iClass)) select 0);
+		_index = BP_CLBase find _iClass;
+		_weights = BP_CLChances select _index;
+		_cntWeights = count _weights;
+		_qty = 0;
+		_max = ceil(random 2) + 1;
+		while {_qty < _max} do {
+			_tQty = round(random 1) + 1;
+			_index = floor(random _cntWeights);
+			_index = _weights select _index;
+			_canType = _itemTypes select _index;
+			_item addMagazineCargoGlobal [_canType,_tQty];
+			_qty = _qty + _tQty;
+		};
+		if (_iItem != "") then {
+			_item addWeaponCargoGlobal [_iItem,1];
+		};
 	};
 };
 

@@ -64,7 +64,7 @@ class CfgFunctions
 		//	class variableSpaceRemove {};
 		//};
 		
-		class GUI
+		class Gui
 		{
 			class credits { file = "\breakingpoint_functions\void.sqf"; };
 			class credits_movie { file = "\breakingpoint_functions\void.sqf"; };
@@ -151,15 +151,15 @@ class CfgFunctions
 		delete Waypoints;
 		delete Hints;
 		delete Map;
-		delete MP;
+		delete Mp;
 		delete Spawning;
 	};
 	
 	class A2OA
 	{
-		class GUI
+		class Gui
 		{
-			class AAN { file = "\breakingpoint_functions\void.sqf"; };
+			class Aan { file = "\breakingpoint_functions\void.sqf"; };
 			class dynamicText { file = "\breakingpoint_functions\void.sqf"; };
 		};
 		delete Misc;
@@ -341,7 +341,7 @@ class CfgFunctions
 				description = "Measures how much time it takes to execute given expression";
 			};
 			
-			class GC {
+			class Gc {
 				description = "Garbage Collector";
 			};
 			
@@ -355,7 +355,7 @@ class CfgFunctions
 			};
 		};
 		
-		class GUI {
+		class Gui {
 			file = "A3\functions_f\GUI";
 			class getIDD {};
 			class getIDC {};
@@ -366,7 +366,7 @@ class CfgFunctions
 			class GUIgrid {};
 			class GUIgridToProfile {};
 			class GUInewsfeed {};
-			class PIP {};
+			class Pip {};
 			class camFollow {};
 			class displayColorSet {};
 			class displayColorGet {};
@@ -446,7 +446,7 @@ class CfgFunctions
 			class singleMissionKeys {};
 		};
 		
-		delete MP;
+		delete Mp;
 		
 		class Numbers {
 			file = "A3\functions_f\Numbers";

@@ -335,7 +335,7 @@ class CfgVehicles
 	class BP_CivilianOneBlack: BP_Bag_Base
 	{
 		scope = 2;
-		DLC = "AoW";
+		dlc = "AoW";
 		displayName = "Civilian One Pack (Black)";
 		model = "\a3\Supplies_F_AoW\Bags\B_CivilianBackpack_01_F.p3d";
 		picture = "\a3\Supplies_F_AoW\Bags\Data\UI\icon_B_CivilianBackpack_01_Everyday_Black_F_ca.paa";
@@ -351,7 +351,7 @@ class CfgVehicles
 	class BP_CivilianOneBlue: BP_Bag_Base
 	{
 		scope = 2;
-		DLC = "AoW";
+		dlc = "AoW";
 		displayName = "Civilian One Pack (Blue)";
 		model = "\a3\Supplies_F_AoW\Bags\B_CivilianBackpack_01_F.p3d";
 		picture = "\a3\Supplies_F_AoW\Bags\Data\UI\icon_B_CivilianBackpack_01_Sport_Blue_F_ca.paa";
@@ -367,7 +367,7 @@ class CfgVehicles
 	class BP_CivilianOneGreen: BP_Bag_Base
 	{
 		scope = 2;
-		DLC = "AoW";
+		dlc = "AoW";
 		displayName = "Civilian One Pack (Green)";
 		model = "\a3\Supplies_F_AoW\Bags\B_CivilianBackpack_01_F.p3d";
 		picture = "\a3\Supplies_F_AoW\Bags\Data\UI\icon_B_CivilianBackpack_01_Sport_Green_F_ca.paa";
@@ -383,7 +383,7 @@ class CfgVehicles
 	class BP_CivilianOneRed: BP_Bag_Base
 	{
 		scope = 2;
-		DLC = "AoW";
+		dlc = "AoW";
 		displayName = "Civilian One Pack (Red)";
 		model = "\a3\Supplies_F_AoW\Bags\B_CivilianBackpack_01_F.p3d";
 		picture = "\a3\Supplies_F_AoW\Bags\Data\UI\icon_B_CivilianBackpack_01_Sport_Red_F_ca.paa";
@@ -3347,7 +3347,7 @@ class CfgVehicles
 		_generalMacro = "Rusty Scooter";
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		crew = "";
 		typicalCargo[] = {};
@@ -3390,7 +3390,7 @@ class CfgVehicles
 		transportMaxWeapons = 10;
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		crew = "";
 		typicalCargo[] = {};
@@ -3429,7 +3429,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rusty Caesar BTT";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		crew = "";
 		typicalCargo[] = {""};
@@ -3509,7 +3509,7 @@ class CfgVehicles
 		displayName = "Rusted Qilin (Armed)";
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		crew = "";
 		typicalCargo[] = {};
@@ -3588,7 +3588,7 @@ class CfgVehicles
 		displayName = "Rusted Qilin";
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		crew = "";
 		typicalCargo[] = {};
@@ -3667,7 +3667,7 @@ class CfgVehicles
 		displayName = "Rusted Prowler (Armed)";
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		crew = "";
 		typicalCargo[] = {};
@@ -3746,7 +3746,7 @@ class CfgVehicles
 		displayName = "Rusted Prowler";
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		crew = "";
 		typicalCargo[] = {};
@@ -3825,7 +3825,7 @@ class CfgVehicles
 		displayName = "Jeep Wranger 4x4";
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		faction = "CIV_F";
 		crew = "";
@@ -3916,7 +3916,7 @@ class CfgVehicles
 		displayName = "Jeep Wranger 4x4";
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		side = 3;
 		faction = "CIV_F";
 		crew = "";
@@ -6544,7 +6544,7 @@ class CfgVehicles
 		displayName = "Tractor";		
 		scope = 2;
 		scopeCurator = 2;
-		DLC = "Enoch";
+		dlc = "Enoch";
 		side = 3;
 		crew = "";
 		typicalCargo[] = {};
@@ -6623,7 +6623,7 @@ class CfgVehicles
 		faction = "CIV_F";
 		crew = "";
 		typicalCargo[] = {};
-		DLC = "Kart";
+		dlc = "Kart";
 		hiddenSelections[] = {"camo","camo2"};
 		hiddenSelectionsTextures[] = {"\a3\Soft_F_Kart\Kart_01\Data\Kart_01_base_black_CO.paa","\breakingpoint_ui\updatedimage\Kart_01_logos_black_CA.paa"};
 		maximumLoad = 200;

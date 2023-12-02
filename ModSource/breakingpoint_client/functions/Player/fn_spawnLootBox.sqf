@@ -37,7 +37,6 @@ while {_numItems > 0} do
 	
 	switch (_lootType) do 
 	{
-		default {};
 		case "magazine": {
 			_object addMagazineCargoGlobal [_lootClass,1];
 		};
@@ -89,5 +88,6 @@ while {_numItems > 0} do
 		case "backpack": {
 			_object addBackpackCargoGlobal [_lootClass,1];
 		};
+		default {};
 	};
 };

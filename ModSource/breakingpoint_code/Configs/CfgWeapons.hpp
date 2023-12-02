@@ -1744,7 +1744,7 @@ class CfgWeapons
 	{
 		author = "Bohemia Interactive";
 		displayName = "Ghillie (Jungle)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1762,7 +1762,7 @@ class CfgWeapons
 	{
 		author = "Bohemia Interactive";
 		displayName = "Independent (Paramilitary Jacket)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_2_F_1_co.paa"};
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
@@ -1780,7 +1780,7 @@ class CfgWeapons
 	{
 		author = "Bohemia Interactive";
 		displayName = "Independent (Paramilitary Tank)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -1804,7 +1804,7 @@ class CfgWeapons
 	{
 		author = "Bohemia Interactive";
 		displayName = "Independent (Paramilitary Tee)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_1_co.paa"};
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
@@ -1824,7 +1824,7 @@ class CfgWeapons
 		_generalMacro = "V_PlateCarrierGL_tna_F";
 		author = "Bohemia Interactive";
 		displayName = "Carrier GL Rig (Tropic)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Vests\Data\V_PlateCarrierGL_tna_F_co.paa"};
 		picture = "\A3\Characters_F_Exp\Vests\Data\UI\icon_V_PlateCarrierGL_tna_F_ca.paa";
 		descriptionShort = "$STR_A3_SP_AL_IV";
@@ -1886,7 +1886,7 @@ class CfgWeapons
 		_generalMacro = "V_HarnessO_ghex_F";
 		author = "Bohemia Interactive";
 		displayName = "LBV Harness (Green Hex)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa","\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"};
 		picture = "\A3\Characters_F_Exp\Vests\Data\UI\icon_V_HarnessO_ghex_F_ca.paa";
 	};
@@ -1895,7 +1895,7 @@ class CfgWeapons
 		_generalMacro = "V_BandollierB_ghex_F";
 		author = "Bohemia Interactive";
 		displayName = "Slash Bandolier (Green Hex)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Vests\Data\V_BandollierB_ghex_F_co.paa"};
 		picture = "\A3\Characters_F_Exp\Vests\Data\UI\icon_V_BandollierB_ghex_F_ca.paa";
 	};
@@ -1904,7 +1904,7 @@ class CfgWeapons
 		_generalMacro = "V_TacChestrig_grn_F";
 		author = "Bohemia Interactive";
 		displayName = "Tactical Chest Rig (Green)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Common\Data\equip_TacChestrig_grn_co.paa"};
 		model = "\A3\Characters_F_Exp\Common\equip_TacChestrig.p3d";
 		picture = "\A3\Characters_F_Exp\Data\UI\icon_V_TacChestrig_grn_ca.paa";
@@ -1923,7 +1923,7 @@ class CfgWeapons
 		_generalMacro = "V_TacChestrig_cbr_F";
 		author = "Bohemia Interactive";
 		displayName = "Tactical Chest Rig (Coyote)";
-		DLC = "Expansion";
+		dlc = "Expansion";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Common\Data\equip_TacChestrig_cbr_co.paa"};
 		picture = "\A3\Characters_F_Exp\Data\UI\icon_V_TacChestrig_cbr_ca.paa";
 	};

@@ -2815,14 +2815,14 @@ class CfgWeapons
 		};
 	};
 //------------------------|
-//Apex DLC Additions|----------------------------------------------------------------------------------
+//Apex idc Additions|----------------------------------------------------------------------------------
 //------------------------|	
 
 	class BP_arifle_AKS_base_F: arifle_AKS_base_F
 	{
 		_generalMacro = "arifle_AKS_base_F";
 		author = "Bohemia Interactive";
-		DLC = "Expansion";
+		idc = "Expansion";
 		changeFiremodeSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK74\AK74_firemode",0.177828,1,5};
 		descriptionShort = "Assault Rifle<br />Caliber: 5.45x39 mm";
 		dexterity = 1.6;
@@ -2934,7 +2934,7 @@ class CfgWeapons
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "arifle_AKM_base_F";
 		displayName = "$STR_A3_CfgWeapons_arifle_AKM_F0";
-		DLC = "Expansion";
+		idc = "Expansion";
 		descriptionShort = "$STR_A3_CFGWEAPONS_ARIFLE_AK12_BASE_F1";
 		model = "\A3\Weapons_F_Exp\Rifles\AKM\AKM_F.p3d";
 		hiddenSelections[] = {"camo_1","camo_2","camo_3"};
@@ -3127,7 +3127,7 @@ class CfgWeapons
 				soundSetShot[] = {"AK12_Shot_SoundSet","AK12_Tail_SoundSet","AK12_InteriorTail_SoundSet"};
 			};
 		};
-		class EGLM : UGL_F { //["GrenadeLauncher","Default"]
+		class eglm : UGL_F { //["GrenadeLauncher","Default"]
 			magazines[] = {"BP_1Rnd_40mm_Flashbang","BP_1Rnd_HE_shell","BP_3Rnd_HE_shell","BP_UGL_FlareWhite","BP_UGL_FlareRed","BP_UGL_FlareGreen"};
 			cameraDir = "OP_look";
 			discreteDistance[] = {50,75,100,150,200,250,300,350,400};
@@ -3490,7 +3490,7 @@ class CfgWeapons
 	{
 		_generalMacro = "arifle_SPAR_01_base_F";
 		author = "Bohemia Interactive";
-		DLC = "Expansion";
+		idc = "Expansion";
 		changeFiremodeSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_firemode",0.177828,1,5};
 		descriptionShort = "Assault Rifle<br />Caliber: 5.56x45 mm";
 		dexterity = 1.5;
@@ -3620,7 +3620,7 @@ class CfgWeapons
 		aiDispersionCoefX = 4;
 		aiDispersionCoefY = 6;
 		author = "Bohemia Interactive";
-		DLC = "Expansion";
+		idc = "Expansion";
 		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\Anim\SPAR_01_GL.rtm"};
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		inertia = 0.6;
@@ -3628,7 +3628,7 @@ class CfgWeapons
 		muzzles[] = {"this","EGLM"};
 		reloadAction = "GestureReloadMX";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
-		class EGLM: UGL_F
+		class eglm: UGL_F
 		{
 			magazines[] = {"BP_1Rnd_40mm_Flashbang","BP_1Rnd_HE_shell","BP_3Rnd_HE_shell","BP_UGL_FlareWhite","BP_UGL_FlareRed","BP_UGL_FlareGreen"};
 			cameraDir = "OP_look";
@@ -3688,7 +3688,7 @@ class CfgWeapons
 		displayName = "HK433";
 		distanceZoomMax = 300;
 		distanceZoomMin = 300;
-		DLC = "Expansion";
+		idc = "Expansion";
 		drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR02\SPAR02_dry",0.562341,1,10};
 		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Exp\Rifles\SPAR_02\Data\Anim\SPAR_02.rtm"};
 		hiddenSelections[] = {"camo1","camo2"};
@@ -3805,7 +3805,7 @@ class CfgWeapons
 	{
 		_generalMacro = "arifle_SPAR_03_base_F";
 		author = "Bohemia Interactive";
-		DLC = "Expansion";
+		idc = "Expansion";
 		changeFiremodeSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR_17\SPAR_17_firemode",0.251189,1,5};
 		descriptionShort = "Marksman rifle<br />Caliber: 7.62x51 mm";
 		dexterity = 1.2;
@@ -3936,7 +3936,7 @@ class CfgWeapons
 		changeFiremodeSound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\firemode_katiba",0.251189,1,5};
 		descriptionShort = "Assault Rifle<br />Caliber: 5.8x42 mm";
 		displayName = "QBZ-95";
-		DLC = "Expansion";
+		idc = "Expansion";
 		distanceZoomMax = 300;
 		distanceZoomMin = 300;
 		drySound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\dry_Katiba",0.562341,1,10};
@@ -4055,14 +4055,14 @@ class CfgWeapons
 		aiDispersionCoefX = 4;
 		aiDispersionCoefY = 6;
 		author = "Bohemia Interactive";
-		DLC = "Expansion";
+		idc = "Expansion";
 		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Exp\Rifles\CTAR\Anim\CTARGL.rtm"};
 		hiddenSelections[] = {"camo1","camo2"};
 		inertia = 0.4;
 		model = "\A3\Weapons_F_Exp\Rifles\CTAR\CTAR_GL_F.p3d";
 		muzzles[] = {"this","EGLM"};
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
-		class EGLM: UGL_F
+		class eglm: UGL_F
 		{
 			magazines[] = {"BP_1Rnd_40mm_Flashbang","BP_1Rnd_HE_shell","BP_3Rnd_HE_shell","BP_UGL_FlareWhite","BP_UGL_FlareRed","BP_UGL_FlareGreen"};
 			cameraDir = "OP_look";
@@ -4109,7 +4109,7 @@ class CfgWeapons
 	{
 		_generalMacro = "arifle_CTARS_base_F";
 		author = "Bohemia Interactive";
-		DLC = "Expansion";
+		idc = "Expansion";
 		changeFiremodeSound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\firemode_katiba",0.251189,1,5};
 		descriptionShort = "Light Machine Gun<br />Caliber: 5.8x42 mm";
 		dexterity = 1.6;
@@ -4232,7 +4232,7 @@ class CfgWeapons
 		discreteDistance[] = {300};
 		discreteDistanceInitIndex = 0;
 		displayName = "Type 115 6.5 mm";
-		DLC = "Expansion";
+		idc = "Expansion";
 		distanceZoomMax = 300;
 		distanceZoomMin = 300;
 		drySound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\dry_Katiba",0.562341,1,10};
@@ -4455,7 +4455,7 @@ class CfgWeapons
 		displayName = "CMR-76 6.5 mm";
 		distanceZoomMax = 1600;
 		distanceZoomMin = 300;
-		DLC = "Expansion";
+		idc = "Expansion";
 		drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\LongRangeRifles\DMR07\DMR07_dry",0.562341,1,10};
 		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Exp\LongRangeRifles\DMR_07\Data\Anim\DMR_07.rtm"};
 		hasBipod = 1;
@@ -7759,7 +7759,7 @@ class CfgWeapons
 			//recoil = "recoil_auto_mk20";
 			//recoilProne = "recoil_auto_prone_mk20";
 		};
-		class EGLM: UGL_F 
+		class eglm: UGL_F 
 		{
 			useModelOptics = 0;
 			useExternalOptic = 0;
@@ -14473,7 +14473,7 @@ class CfgWeapons
 		picture = "\breakingpoint_ui\updatedimage\badnews.paa";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_01_dazzle_CO.paa","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_02_dazzle_CO.paa"};
-		DLC = "Mark";
+		idc = "Mark";
 		magazines[] = {"BP_10Rnd_338Lapua_Mag"};
 		displayname = "Bad News";
 		reloadAction = "GestureReloadMXSniper";
@@ -19489,7 +19489,7 @@ class CfgWeapons
 		displayName = "VSS Vintorez";
 		descriptionShort = "Russian Sniper Thread Cutter";
 		model="\A3\Weapons_F_Mark\LongRangeRifles\DMR_04\DMR_04_F.p3d";
-		DLC="Mark";
+		idc="Mark";
 		inertia = 0.257;
 		recoil = "recoil_22lr";
 		initSpeed = -1.03;
@@ -20066,7 +20066,7 @@ class CfgWeapons
 			optics = 1;
 			class OpticsModes 
 			{
-				class AIM 
+				class Aim 
 				{
 					opticsID = 1;
 					useModelOptics = 0;
@@ -20165,7 +20165,7 @@ class CfgWeapons
 			modelOptics = "breakingpoint_weapons\scopes\Dagger_4x_acog.p3d";
 			class OpticsModes 
 			{
-				class ACOG 
+				class Acog 
 				{
 					opticsID = 1;
 					useModelOptics = 1;
@@ -20179,7 +20179,7 @@ class CfgWeapons
 					distanceZoomMin = 300;
 					distanceZoomMax = 300;
 				};
-				class Kolimator: ACOG 
+				class Kolimator: Acog 
 				{
 					opticsID = 2;
 					useModelOptics = 0;
@@ -20276,7 +20276,7 @@ class CfgWeapons
 					opticsFlare = 1;
 					cameraDir = "";
 				};
-				class MRAD: M3A 
+				class Mrad: M3A 
 				{
 					opticsID = 2;
 					useModelOptics = 0;
@@ -20390,7 +20390,7 @@ class CfgWeapons
 			optics = 1;
 			class OpticsModes 
 			{
-				class AIM 
+				class Aim 
 				{
 					opticsID = 1;
 					useModelOptics = 0;
@@ -20426,7 +20426,7 @@ class CfgWeapons
 			optics = 1;
 			class OpticsModes 
 			{
-				class AIM 
+				class Aim 
 				{
 					opticsID = 1;
 					useModelOptics = 0;
@@ -20730,7 +20730,7 @@ class CfgWeapons
 			modelOptics = "breakingpoint_weapons\scopes\Bek_MRT.p3d";
 			class OpticsModes 
 			{
-				class MRT 
+				class Mrt 
 				{
 					opticsID = 1;
 					opticsDisplayName = "WFOV";
@@ -21068,7 +21068,7 @@ class CfgWeapons
 			modelOptics = "\breakingpoint_weapons\models\PSOP\BP_pso3optics.p3d";//could test using PSO1 reticle
 			class OpticsModes 
 			{
-				class PSOP 
+				class Psop 
 				{
 					opticsID = 1;
 					opticsDisplayName = "WFOV";
@@ -21087,7 +21087,7 @@ class CfgWeapons
 					opticsFlare = 1;
 					cameraDir = "";
 				};				
-				class Iron: PSOP 
+				class Iron: Psop 
 				{
 					opticsID = 2;
 					useModelOptics = 0;

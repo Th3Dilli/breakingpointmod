@@ -105,7 +105,6 @@ class CfgWorlds
 	class DefaultLighting;
 	class NewHaven : CAWorld 
 	{
-		access = 3;
 		worldId = 1;
 		cutscenes[] = {"newhavenIntro1"};
 		description = "New Haven";
@@ -3228,7 +3227,7 @@ class CfgWorlds
 				angle = 0.0;
 			};
 			
-			class BPHQ {
+			class BPhq {
 				name = "Breaking Point H.Q";
 				position[] = {5313.86, 743.442};
 				type = "NameLocal";
@@ -3278,7 +3277,6 @@ class CfgSurfaces {
 	class Default;
 
 	class bpgrass : Default {
-//		access = READONLY;
 		files = "bp_dirt_*";
 		character = "bp_grassClutter";
 		soundEnviron = "grass";
@@ -3293,7 +3291,6 @@ class CfgSurfaces {
 	};
 	
 	class bpbeach : Default {
-//		access = READONLY;
 		files = "bp_beach_*";
 		character = "Empty";
 		soundEnviron = "sand";
@@ -3307,7 +3304,6 @@ class CfgSurfaces {
 	};
 	
 	class bppineforest : Default {
-//		access = READONLY;
 		files = "cr_les2_*";
 		character = "bp_pineforestClutter";
 		soundEnviron = "drygrass";
@@ -3322,7 +3318,6 @@ class CfgSurfaces {
 	};
 	
 	class bp_wheatstubble : Default {
-//		access = READONLY;
 		files = "cr_strniste_*";
 		rough = 0.13;
 		dust = 0.5;
@@ -3332,7 +3327,6 @@ class CfgSurfaces {
 	};
 	
 	class bp_ploughedground : Default {
-//		access = READONLY;
 		files = "cr_oranice_*";
 		rough = 0.15;
 		dust = 0.25;
@@ -3342,7 +3336,6 @@ class CfgSurfaces {
 	};
 	
 	class bp_brownrockground : Default {
-//		access = READONLY;
 		files = "bp_brownrock_*";
 		character = "empty";
 		soundEnviron = "gravel";
@@ -3357,7 +3350,6 @@ class CfgSurfaces {
 	};
 	
 	class bp_soilsurface : Default {
-//		access = READONLY;
 		files = "bp_soil_*";
 		character = "empty";
 		soundEnviron = "dirt";
@@ -3372,7 +3364,6 @@ class CfgSurfaces {
 	};
 	
 	class bp_flatgrasssurface : Default {
-//		access = READONLY;
 		files = "bp_flatgrass_*";
 		character = "bp_flatgrassClutter";
 		soundEnviron = "grass";

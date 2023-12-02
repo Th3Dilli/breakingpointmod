@@ -7,21 +7,6 @@
 	Alderon Games Pty Ltd
 */
 
-#define VSoft		0
-#define VArmor		1
-#define VAir		2
-
-#define private		0
-#define protected		1
-#define public		2
-
-#define ReadAndWrite		0
-#define ReadAndCreate		1
-#define ReadOnly		2
-#define ReadOnlyVerified		3
-
-#define true	1
-#define false	0
 
 class CfgPatches {
 	class breakingpoint_ui {
@@ -93,8 +78,8 @@ class CfgMarkers
 };
 class cfgScriptPaths {
 	default = "breakingpoint_ui\scripts\GUI\";
-	GUI = "breakingpoint_ui\scripts\GUI\";
-	IGUI = "breakingpoint_ui\scripts\IGUI\";
+	Gui = "breakingpoint_ui\scripts\GUI\";
+	Igui = "breakingpoint_ui\scripts\IGUI\";
 	Loading = "breakingpoint_ui\scripts\Loading\";
 };
 
@@ -957,32 +942,32 @@ class CfgCommunicationMenu {
 		cursor = "";
 		enable = "";
 	};
-	delete A;
-	delete B;
-	delete C;
-	delete D;
-	delete E;
-	delete F;
-	delete G;
-	delete H;
-	delete I;
-	delete J;
-	delete K;
-	delete L;
-	delete M;
-	delete N;
-	delete O;
-	delete P;
-	delete Q;
-	delete R;
-	delete S;
-	delete T;
-	delete U;
-	delete V;
-	delete W;
-	delete X;
-	delete Y;
-	delete Z;
+	delete a;
+	delete b;
+	delete c;
+	delete d;
+	delete e;
+	delete f;
+	delete g;
+	delete h;
+	delete i;
+	delete j;
+	delete k;
+	delete l;
+	delete m;
+	delete n;
+	delete o;
+	delete p;
+	delete q;
+	delete r;
+	delete s;
+	delete t;
+	delete u;
+	delete v;
+	delete w;
+	delete x;
+	delete y;
+	delete z;
 	delete Call;
 	delete Attack;
 	delete Defend;

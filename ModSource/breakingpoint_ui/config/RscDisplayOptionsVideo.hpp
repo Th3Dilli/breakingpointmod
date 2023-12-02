@@ -175,7 +175,7 @@ class RscDisplayOptionsVideo
 		};
 		class GeneralButton: RscButtonMenu
 		{
-			IDC=8431;
+			idc=8431;
 			colorBackground[]={0,0,0,0};
 			text="$STR_A3_RscDisplayOptionsVideo_GeneralButton";
 			x="1 * 					(			((safezoneW / safezoneH) min 1.2) / 40) + 		(safezoneX + (safezoneW - 					((safezoneW / safezoneH) min 1.2))/2)";
@@ -186,7 +186,7 @@ class RscDisplayOptionsVideo
 		};
 		class DisplayButton: RscButtonMenu
 		{
-			IDC=8433;
+			idc=8433;
 			colorBackground[]={0,0,0,0};
 			text="$STR_A3_RscDisplayOptionsVideo_DisplayButton";
 			x="9 * 					(			((safezoneW / safezoneH) min 1.2) / 40) + 		(safezoneX + (safezoneW - 					((safezoneW / safezoneH) min 1.2))/2)";
@@ -197,7 +197,7 @@ class RscDisplayOptionsVideo
 		};
 		class AAPPButton: RscButtonMenu
 		{
-			IDC=8432;
+			idc=8432;
 			colorBackground[]={0,0,0,0};
 			text="$STR_A3_RscDisplayOptionsVideo_AAPPButton";
 			x="17 * 					(			((safezoneW / safezoneH) min 1.2) / 40) + 		(safezoneX + (safezoneW - 					((safezoneW / safezoneH) min 1.2))/2)";

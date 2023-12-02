@@ -107,6 +107,11 @@ _primary params ["","_medical","_stats","_currentState","_worldspace","_class","
 
 //Workaround for int bug where things get converted to - max int from hive extension
 
+["playerLogin: prim: %1", _primary] call BP_fnc_debugConsoleFormat;
+["playerLogin: stats: %1", _stats] call BP_fnc_debugConsoleFormat;
+
+
+
 ["Class: %1 Ranger: %2",_class,_ranger] call BP_fnc_debugConsoleFormat;
 
 //_class = parseNumber _class;
@@ -291,9 +296,10 @@ _body setVariable ["undead",_undead];
 
 //Load Stats
 if !(_stats isEqualTo []) then {
-	_body setVariable ["zombieKills",(_stats select 0)];
-	_body setVariable ["headShots",(_stats select 1)];
-	_body setVariable ["humanKills",(_stats select 2)];
+	["playerLogin: zombieKills: %1", _stats select 0] call BP_fnc_debugConsoleFormat;
+	_body setVariable ["zombieKills",(_stats select 0),true];
+	_body setVariable ["headShots",(_stats select 1),true];
+	_body setVariable ["humanKills",(_stats select 2),true];
 	//_body setVariable ["freshSpawnKills",(_stats select 3)];
 	//_body setVariable ["storageKills",(_stats select 4)];
 };

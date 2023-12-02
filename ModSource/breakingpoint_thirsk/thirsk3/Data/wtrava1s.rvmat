@@ -12,7 +12,7 @@ VertexShaderID = "NormalMapDiffuseAlpha";
 
 class Stage1
 { // normal map
- texture="RHNET\Thirsk\data\wtrava1s_detail_nopx.paa";
+ texture="RHNET\Thirsk3\data\wtrava1s_detail_nopx.paa";
  uvSource="tex";
  class uvTransform
  {
@@ -25,7 +25,7 @@ class Stage1
 
 class Stage2
 {
- texture="RHNET\Thirsk\data\wtrava1s_detail_co.paa";
+ texture="RHNET\Thirsk3\data\wtrava1s_detail_co.paa";
  uvSource="tex";
  class uvTransform
  {
