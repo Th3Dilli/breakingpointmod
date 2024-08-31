@@ -3209,7 +3209,7 @@ class CfgWeapons
 				soundSetShot[] = {"AK12_Shot_SoundSet","AK12_Tail_SoundSet","AK12_InteriorTail_SoundSet"};
 			};
 		};
-		class EGLM : UGL_F { //["GrenadeLauncher","Default"]
+		class Eglm : UGL_F { //["GrenadeLauncher","Default"]
 			magazines[] = {"BP_1Rnd_40mm_Flashbang","BP_1Rnd_HE_shell","BP_3Rnd_HE_shell","BP_UGL_FlareWhite","BP_UGL_FlareRed","BP_UGL_FlareGreen"};
 			cameraDir = "OP_look";
 			discreteDistance[] = {50,75,100,150,200,250,300,350,400};
@@ -3308,7 +3308,7 @@ class CfgWeapons
 		hiddenSelections[] = {"camo1","camo2"};
 		inertia = 0.7;
 		model = "\A3\Weapons_F_Exp\Rifles\AK12\AK12_GL_F.p3d";
-		muzzles[] = {"this","EGLM"};
+		muzzles[] = {"this","Eglm"};
 		scope = 0;
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 		class WeaponSlotsInfo  { //["WeaponSlotsInfo"]
@@ -4537,7 +4537,7 @@ class CfgWeapons
 		displayName = "CMR-76 6.5 mm";
 		distanceZoomMax = 1600;
 		distanceZoomMin = 300;
-		DLC = "Expansion";
+		dlc = "Expansion";
 		drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\LongRangeRifles\DMR07\DMR07_dry",0.562341,1,10};
 		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Exp\LongRangeRifles\DMR_07\Data\Anim\DMR_07.rtm"};
 		hasBipod = 1;
@@ -7876,7 +7876,7 @@ class CfgWeapons
 		initSpeed = -0.97;
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\breakingpoint_weapons\textures\mx\mk20_co.paa"};
-		muzzles[] = {"this", "EGLM"};
+		muzzles[] = {"this", "Eglm"};
 		modes[] = {"Single", "FullAuto"};
 		class Single : Mode_SemiAuto 
 		{
@@ -7942,7 +7942,7 @@ class CfgWeapons
 			//recoil = "recoil_auto_mk20";
 			//recoilProne = "recoil_auto_prone_mk20";
 		};
-		class EGLM: UGL_F 
+		class Eglm: UGL_F 
 		{
 			useModelOptics = 0;
 			useExternalOptic = 0;
@@ -20253,7 +20253,7 @@ class CfgWeapons
 			optics = 1;
 			class OpticsModes 
 			{
-				class AIM 
+				class Aim 
 				{
 					opticsID = 1;
 					useModelOptics = 0;
@@ -20352,7 +20352,7 @@ class CfgWeapons
 			modelOptics = "breakingpoint_weapons\scopes\Dagger_4x_acog.p3d";
 			class OpticsModes 
 			{
-				class ACOG 
+				class Acog 
 				{
 					opticsID = 1;
 					useModelOptics = 1;
@@ -20366,7 +20366,7 @@ class CfgWeapons
 					distanceZoomMin = 300;
 					distanceZoomMax = 300;
 				};
-				class Kolimator: ACOG 
+				class Kolimator: Acog 
 				{
 					opticsID = 2;
 					useModelOptics = 0;
@@ -20463,7 +20463,7 @@ class CfgWeapons
 					opticsFlare = 1;
 					cameraDir = "";
 				};
-				class MRAD: M3A 
+				class Mrad: M3A 
 				{
 					opticsID = 2;
 					useModelOptics = 0;
@@ -20577,7 +20577,7 @@ class CfgWeapons
 			optics = 1;
 			class OpticsModes 
 			{
-				class AIM 
+				class Aim 
 				{
 					opticsID = 1;
 					useModelOptics = 0;
@@ -20613,7 +20613,7 @@ class CfgWeapons
 			optics = 1;
 			class OpticsModes 
 			{
-				class AIM 
+				class Aim 
 				{
 					opticsID = 1;
 					useModelOptics = 0;
@@ -20917,7 +20917,7 @@ class CfgWeapons
 			modelOptics = "breakingpoint_weapons\scopes\Bek_MRT.p3d";
 			class OpticsModes 
 			{
-				class MRT 
+				class Mrt 
 				{
 					opticsID = 1;
 					opticsDisplayName = "WFOV";
@@ -21255,7 +21255,7 @@ class CfgWeapons
 			modelOptics = "\breakingpoint_weapons\models\PSOP\BP_pso3optics.p3d";//could test using PSO1 reticle
 			class OpticsModes 
 			{
-				class PSOP 
+				class Psop 
 				{
 					opticsID = 1;
 					opticsDisplayName = "WFOV";
@@ -21274,7 +21274,7 @@ class CfgWeapons
 					opticsFlare = 1;
 					cameraDir = "";
 				};				
-				class Iron: PSOP 
+				class Iron: Psop 
 				{
 					opticsID = 2;
 					useModelOptics = 0;
@@ -22189,7 +22189,7 @@ class CfgWeapons
  			alternativeFire = "Zasleh2";  // class in cfgWeapons with model of muzzle flash	 	
  			class MuzzleCoef 
 			{
- 				dispersionCoef = 0.030
+ 				dispersionCoef = 0.030;
 				artilleryDispersionCoef=1;
  				fireLightCoef = 1.3;
  				recoilCoef = 0.5;

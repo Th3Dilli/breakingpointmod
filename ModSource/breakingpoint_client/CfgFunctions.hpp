@@ -148,8 +148,8 @@ class CfgFunctions
 			class pickupBike {};
 			class dropWeaponHolderMag {};
 		};
-		class GUI {
-			file = "\breakingpoint_client\functions\GUI";
+		class Gui {
+			file = "\breakingpoint_client\functions\Gui";
 			class onPause {};
 			class skipBriefing { preInit = 1; };
 			class spaceInterrupt {};

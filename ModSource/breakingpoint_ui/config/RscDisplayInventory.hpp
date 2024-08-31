@@ -50,7 +50,7 @@
 #define ST_TILE_PICTURE 144
 #define ST_WITH_RECT 160
 #define ST_LINE 176
-#define FontM "Zeppelin32"
+#define FONTM "Zeppelin32"
 #define LB_TEXTURES 0x10
 #define LB_MULTI 0x20
 

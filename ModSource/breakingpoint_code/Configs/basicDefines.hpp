@@ -7,70 +7,70 @@
   Alderon Games Pty Ltd
 */
 
-#define TEast 0
-#define TWest 1
-#define TGuerrila 2
-#define TCivilian 3
-#define TSideUnknown 4
-#define TEnemy 5
-#define TFriendly 6
-#define TLogic 7
+#define TEAST 0
+#define TWEST 1
+#define TGUERRILA 2
+#define TCIVILIAN 3
+#define TSIDEUNKNOWN 4
+#define TENEMY 5
+#define TFRIENDLY 6
+#define TLOGIC 7
 
-#define true 1
-#define false 0
+#define TRUE 1
+#define FALSE 0
 
-#define VSoft 0
-#define VArmor 1
-#define VAir 2
+#define VSOFT 0
+#define VARMOR 1
+#define VAIR 2
 
 // type scope
-#define private 0
-#define protected 1
-#define public 2
+#define PRIVATE 0
+#define PROTECTED 1
+#define PUBLIC 2
 
-#define CanSeeRadar 1
-#define CanSeeEye 2
-#define CanSeeOptics 4
-#define CanSeeEar 8
-#define CanSeeCompass 16
-#define CanSeeRadarC CanSeeRadar+CanSeeCompass
-#define CanSeeAll 31
+#define CANSEERADAR 1
+#define CANSEEEYE 2
+#define CANSEEOPTICS 4
+#define CANSEEEAR 8
+#define CANSEECOMPASS 16
+#define CANSEERADARC CanSeeRadar+CanSeeCompass
+#define CANSEEALL 31
 
-#define ReadAndWrite 0 //! any modifications enabled
-#define ReadAndCreate 1 //! only adding new class members is allowed
-#define ReadOnly 2 //! no modifications enabled
-#define ReadOnlyVerified 3 //! no modifications enabled, CRC test applied
+#define READANDWRITE 0 //! any modifications enabled
+#define READANDCREATE 1 //! only adding new class members is allowed
+#define READONLY 2 //! no modifications enabled
+#define READONLYVERIFIED 3 //! no modifications enabled, CRC test applied
 
-#define LockNo		0
-#define LockCadet	1
-#define LockYes		2
+#define LOCKNO		0
+#define LOCKCADET	1
+#define LOCKYES		2
 
-#define WeaponNoSlot		0	// dummy weapons
-#define WeaponSlotPrimary	1	// primary weapons
-#define WeaponSlotSecondary	4	// secondary weapons
-#define WeaponSlotHandGun	2	// HandGun
-#define WeaponSlotHandGunItem	16 // HandGun magazines
-#define WeaponSlotItem		256	// items
-#define WeaponSlotBinocular	4096	// binocular
-#define WeaponHardMounted	65536
-#define WeaponSlotInventory 131072 // inventory items
+#define WEAPONNOSLOT		0	// dummy weapons
+#define WEAPONSLOTPRIMARY	1	// primary weapons
+#define WEAPONSLOTSECONDARY	4	// secondary weapons
+#define WEAPONSLOTHANDGUN	2	// HandGun
+#define WEAPONSLOTHANDGUNITEM	16 // HandGun magazines
+#define WEAPONSLOTITEM		256	// items
+#define WEAPONSLOTBINOCULAR	4096	// binocular
+#define WEAPONHARDMOUNTED	65536
+#define WEAPONSLOTINVENTORY 131072 // inventory items
 
 #define SPEED_STATIC 1e10
 
 #define NEVER_DESTROY 1000	// for MP - destroying dead bodies
 
-#define TracerEColor 0.2,0.8,0.1
-#define TracerWColor 0.8,0.5,0.1
-#define TracerGColor 0.7,0.7,0.5
-#define TracerNColor 0,0,0 // used for sniper / silenced rifles
+#define TRACERECOLOR 0.2,0.8,0.1
+#define TRACERWCOLOR 0.8,0.5,0.1
+#define TRACERGCOLOR 0.7,0.7,0.5
+#define TRACERNCOLOR 0,0,0 // used for sniper / silenced rifles
 
-#define TracerEColorF {TracerEColor,0.040}
-#define TracerWColorF {TracerWColor,0.040}
-#define TracerGColorF {TracerGColor,0.040}
-#define TracerNColorF {TracerNColor,0.005}
+#define TRACERECOLORF {TracerEColor,0.040}
+#define TRACERWCOLORF {TracerWColor,0.040}
+#define TRACERGCOLORF {TracerGColor,0.040}
+#define TRACERNCOLORF {TracerNColor,0.005}
 
-#define TracerSEColorF {TracerEColor,0.25}
-#define TracerSWColorF {TracerWColor,0.25}
+#define TRACERSECOLORF {TracerEColor,0.25}
+#define TRACERSWCOLORF {TracerWColor,0.25}
 
 #define TRACER_W_ALWAYS tracerColor[]=TracerWColorF;tracerColorR[]=TracerWColorF
 #define TRACER_W_OPTIONAL tracerColor[]=TracerWColorF;tracerColorR[]=TracerNColorF
@@ -85,9 +85,9 @@
 
 #define TRACER_N_ALWAYS tracerColor[]=TracerNColorF;tracerColorR[]=TracerNColorF
 
-#define LockNo		0
-#define LockCadet	1
-#define LockYes		2
+#define LOCKNO		0
+#define LOCKCADET	1
+#define LOCKYES		2
 
 enum
 {
