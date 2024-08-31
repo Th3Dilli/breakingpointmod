@@ -289,11 +289,15 @@ _body setVariable ["survivalist",_survivalist];
 _body setVariable ["engineer",_engineer];
 _body setVariable ["undead",_undead];
 
+_zombieKills = _stats # 0;
+_headShots = _stats # 1;
+_humanKills = _stats # 2;
+
 //Load Stats
 if !(_stats isEqualTo []) then {
-	_body setVariable ["zombieKills",(_stats select 0)];
-	_body setVariable ["headShots",(_stats select 1)];
-	_body setVariable ["humanKills",(_stats select 2)];
+	_body setVariable ["zombieKills",_zombieKills];
+	_body setVariable ["headShots",_headShots];
+	_body setVariable ["humanKills",_humanKills];
 	//_body setVariable ["freshSpawnKills",(_stats select 3)];
 	//_body setVariable ["storageKills",(_stats select 4)];
 };
@@ -381,7 +385,6 @@ if !(_dogData isEqualTo []) then
 
 //Remember Survival For Combat Log AI
 _body setVariable ["survival",_survival];
-
 //Send Login Data
-[_clientID,[_playerID,(netID _body),_charID,_isNew,_randomSpot,_medical,_survival,[_class,_ranger,_outlaw,_hunter,_nomad,_survivalist,_engineer,_undead],_dogData]] call BPServer_fnc_sendLogin;
+[_clientID,[_playerID,(netID _body),_charID,_isNew,_randomSpot,_medical,_survival,[_class,_ranger,_outlaw,_hunter,_nomad,_survivalist,_engineer,_undead,_zombieKills,_headShots,_humanKills],_dogData]] call BPServer_fnc_sendLogin;
 

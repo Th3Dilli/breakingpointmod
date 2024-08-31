@@ -10,4 +10,4 @@
 if (!BP_Debug) exitWith {};
 _pos = getPosATL (vehicle player);
 _dir = getDir (vehicle player);
-["Pos: %1 Dir: %2",_pos,_dir] call BP_fnc_debugConsole;
+["Pos: %1 Dir: %2",_pos,_dir] call BP_fnc_debugConsoleFormat;

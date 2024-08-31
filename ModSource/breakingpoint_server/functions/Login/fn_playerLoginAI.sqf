@@ -34,6 +34,9 @@ _nomad = _body getVariable ["nomad",0];
 _survivalist = _body getVariable ["survivalist",0];
 _engineer = _body getVariable ["engineer",0];
 _undead = _body getVariable ["undead",0];
+_zombieKills = _body getVariable ["zombieKills",0];
+_headShots = _body getVariable ["headShots",0];
+_humanKills = _body getVariable ["humanKills",0];
 
 //Fetch Medical
 _medical = _body call BP_fnc_sumMedical;
@@ -63,4 +66,4 @@ if (_index >= 0) then
 _body setVariable ["hotReload",false];
 
 //Send Login Data
-[_clientID,[_playerID,(netID _body),_charID,_isNew,_randomSpot,_medical,_survival,[_class,_ranger,_outlaw,_hunter,_nomad,_survivalist,_engineer,_undead],_dogData]] call BPServer_fnc_sendLogin;
+[_clientID,[_playerID,(netID _body),_charID,_isNew,_randomSpot,_medical,_survival,[_class,_ranger,_outlaw,_hunter,_nomad,_survivalist,_engineer,_undead,_zombieKills,_headShots,_humanKills],_dogData]] call BPServer_fnc_sendLogin;
