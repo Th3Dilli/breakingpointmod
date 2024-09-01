@@ -24,4 +24,5 @@ if (isServer) then {
 		_kills = _instigator getVariable ["zombieKills",0];
 		_instigator setVariable ["zombieKills",(_kills + 1)];
 	};
+	_this remoteExecCall ["BPServer_fnc_eventKill",2];
 };
